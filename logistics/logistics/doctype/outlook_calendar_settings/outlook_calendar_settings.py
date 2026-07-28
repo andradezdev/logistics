@@ -14,7 +14,7 @@ class OutlookCalendarSettings(Document):
 		self._sync_connected_app_endpoints()
 
 	# Ensure install doesn't fail during init_singles when the default
-	# "Microsoft Outlook" Connected App has not been created yet.
+	# "Microsoft Outlook" Connected App has not been created yet. zz
 	def _ensure_connected_app(self):
 		if self.connected_app and frappe.db.exists("Connected App", self.connected_app):
 			return
