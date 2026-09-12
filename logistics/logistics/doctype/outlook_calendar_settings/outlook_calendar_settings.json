@@ -25,14 +25,14 @@
    "fieldname": "connected_app",
    "fieldtype": "Link",
    "label": "Connected App",
-   "options": "Connected App",
+   "options": "Connected App"
   },
   {
    "default": "common",
    "description": "Azure AD tenant ID, or \"common\" for multi-tenant apps.",
    "fieldname": "azure_tenant_id",
    "fieldtype": "Data",
-   "label": "Azure Tenant ID",
+   "label": "Azure Tenant ID"
   },
   {
    "fieldname": "column_break_1",
