@@ -22,12 +22,10 @@
    "label": "Enable Outlook Task Sync"
   },
   {
-   "default": "Microsoft Outlook",
    "fieldname": "connected_app",
    "fieldtype": "Link",
    "label": "Connected App",
    "options": "Connected App",
-   "reqd": 1
   },
   {
    "default": "common",
@@ -35,7 +33,6 @@
    "fieldname": "azure_tenant_id",
    "fieldtype": "Data",
    "label": "Azure Tenant ID",
-   "reqd": 1
   },
   {
    "fieldname": "column_break_1",
