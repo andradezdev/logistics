@@ -18,7 +18,12 @@ from datetime import datetime, timedelta
 
 import frappe
 from frappe import _
-from frappe.utils import get_datetime, getdate, get_time, combine_datetime, add_to_date
+from frappe.utils import get_datetime, getdate, get_time, add_to_date
+
+def combine_datetime(d, t):
+    if not d or not t:
+        return None
+    return datetime.combine(getdate(d), get_time(t))
 
 
 def validate_vehicle_constraints(
