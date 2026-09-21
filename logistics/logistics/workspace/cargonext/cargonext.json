@@ -1,0 +1,236 @@
+{
+ "app": "logistics",
+ "charts": [],
+ "content": "[{\"id\": \"h_top\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h3\\\"><b>CargoNext Logistics Hub</b></span>\", \"col\": 12}}, {\"id\": \"sc_ct\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Control Tower\", \"col\": 3}}, {\"id\": \"sc_air\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Reservas A\\u00e9reas\", \"col\": 3}}, {\"id\": \"sc_sea\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Reservas Mar\\u00edtimas\", \"col\": 3}}, {\"id\": \"sc_transp\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Ordens de Transporte\", \"col\": 3}}, {\"id\": \"sp_1\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"h_mod\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>M\\u00f3dulos e Opera\\u00e7\\u00f5es Log\\u00edsticas</b></span>\", \"col\": 12}}, {\"id\": \"c_freight\", \"type\": \"card\", \"data\": {\"card_name\": \"Frete Internacional (Air & Sea)\", \"col\": 4}}, {\"id\": \"c_land\", \"type\": \"card\", \"data\": {\"card_name\": \"Transporte & Armazenagem\", \"col\": 4}}, {\"id\": \"c_customs\", \"type\": \"card\", \"data\": {\"card_name\": \"Aduana, Cota\\u00e7\\u00f5es & Projetos\", \"col\": 4}}]",
+ "creation": "2026-09-21 17:38:28.006520",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "package",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "CargoNext",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Frete Internacional (Air & Sea)",
+   "link_count": 0,
+   "link_to": "",
+   "link_type": "",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Air Bookings",
+   "link_count": 0,
+   "link_to": "Air Booking",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Air Shipments",
+   "link_count": 0,
+   "link_to": "Air Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Air Consolidations",
+   "link_count": 0,
+   "link_to": "Air Consolidation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sea Bookings",
+   "link_count": 0,
+   "link_to": "Sea Booking",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sea Shipments",
+   "link_count": 0,
+   "link_to": "Sea Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Containers",
+   "link_count": 0,
+   "link_to": "Container",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transporte & Armazenagem",
+   "link_count": 0,
+   "link_to": "",
+   "link_type": "",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transport Orders",
+   "link_count": 0,
+   "link_to": "Transport Order",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transport Jobs",
+   "link_count": 0,
+   "link_to": "Transport Job",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Warehouse Jobs",
+   "link_count": 0,
+   "link_to": "Warehouse Job",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Warehouse Contracts",
+   "link_count": 0,
+   "link_to": "Warehouse Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Aduana, Cota\u00e7\u00f5es & Projetos",
+   "link_count": 0,
+   "link_to": "",
+   "link_type": "",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Declara\u00e7\u00f5es Aduaneiras",
+   "link_count": 0,
+   "link_to": "Declaration",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cota\u00e7\u00f5es (Sales Quotes)",
+   "link_count": 0,
+   "link_to": "Sales Quote",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tarifas (Tariffs)",
+   "link_count": 0,
+   "link_to": "Tariff",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projetos Especiais",
+   "link_count": 0,
+   "link_to": "Special Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-09-21 17:38:28.006520",
+ "modified_by": "Administrator",
+ "module": "Logistics",
+ "name": "CargoNext",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Control Tower",
+   "link_to": "Control Tower Organization",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Reservas A\u00e9reas",
+   "link_to": "Air Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Reservas Mar\u00edtimas",
+   "link_to": "Sea Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Ordens de Transporte",
+   "link_to": "Transport Order",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "CargoNext",
+ "type": "Workspace"
+}
