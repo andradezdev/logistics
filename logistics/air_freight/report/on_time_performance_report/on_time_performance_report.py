@@ -135,7 +135,7 @@ def get_data(filters):
 					END
 				ELSE 'Pending'
 			END as on_time_status,
-			aship.status
+			aship.job_status as status
 		FROM
 			`tabAir Shipment` aship
 		WHERE

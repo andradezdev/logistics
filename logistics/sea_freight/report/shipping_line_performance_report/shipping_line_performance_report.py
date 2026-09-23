@@ -39,8 +39,8 @@ def get_data(filters):
 		SELECT
 			ss.shipping_line,
 			COUNT(DISTINCT ss.name) as total_shipments,
-			SUM(ss.weight) as total_weight,
-			SUM(ss.volume) as total_volume,
+			SUM(ss.total_weight) as total_weight,
+			SUM(ss.total_volume) as total_volume,
 			SUM(ss.chargeable) as total_chargeable,
 			SUM(CASE WHEN ss.eta IS NOT NULL AND ss.ata IS NOT NULL
 				AND TIMESTAMPDIFF(HOUR, ss.eta, ss.ata) <= 0 THEN 1 ELSE 0 END) as on_time_shipments,

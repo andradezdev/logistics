@@ -106,8 +106,8 @@ def get_data(filters):
 		SELECT
 			aship.airline,
 			COUNT(DISTINCT aship.name) as total_shipments,
-			SUM(aship.weight) as total_weight,
-			SUM(aship.volume) as total_volume,
+			SUM(aship.total_weight) as total_weight,
+			SUM(aship.total_volume) as total_volume,
 			SUM(aship.chargeable) as total_chargeable,
 			SUM(CASE WHEN aship.eta IS NOT NULL AND aship.ata IS NOT NULL 
 				AND TIMESTAMPDIFF(HOUR, aship.eta, aship.ata) <= 0 THEN 1 ELSE 0 END) as on_time_shipments,

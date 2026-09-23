@@ -172,7 +172,7 @@ def get_data(filters):
 			tc.name as consolidation,
 			tc.consolidation_date,
 			tc.consolidation_type,
-			tc.status,
+			IF(tc.docstatus=1, 'Submitted', 'Draft') as status,
 			tc.total_weight,
 			tc.total_volume,
 			tc.run_sheet,
@@ -182,7 +182,7 @@ def get_data(filters):
 		LEFT JOIN `tabTransport Consolidation Job` tcj ON tcj.parent = tc.name
 		WHERE tc.docstatus = 1
 		{conditions}
-		GROUP BY tc.name, tc.consolidation_date, tc.consolidation_type, tc.status, tc.total_weight, tc.total_volume, tc.run_sheet, tc.company
+		GROUP BY tc.name, tc.consolidation_date, tc.consolidation_type, IF(tc.docstatus=1, 'Submitted', 'Draft'), tc.total_weight, tc.total_volume, tc.run_sheet, tc.company
 		ORDER BY tc.consolidation_date DESC
 	""".format(conditions=" AND " + conditions if conditions else "")
 	
@@ -216,7 +216,7 @@ def get_conditions(filters):
 		conditions.append("tc.consolidation_type = %(consolidation_type)s")
 	
 	if filters.get("status"):
-		conditions.append("tc.status = %(status)s")
+		conditions.append("IF(tc.docstatus=1, 'Submitted', 'Draft') = %(status)s")
 	
 	if filters.get("run_sheet"):
 		conditions.append("tc.run_sheet = %(run_sheet)s")

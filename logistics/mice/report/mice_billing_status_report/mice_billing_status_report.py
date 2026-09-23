@@ -25,7 +25,7 @@ def execute(filters=None):
 		conditions.append("org.customer = %(customer)s")
 		values["customer"] = filters["customer"]
 	if filters.get("billing_status"):
-		conditions.append("ep.billing_status = %(billing_status)s")
+		conditions.append("ep.status = %(billing_status)s")
 		values["billing_status"] = filters["billing_status"]
 	where = " AND ".join(conditions)
 	rows = frappe.db.sql(
@@ -33,7 +33,7 @@ def execute(filters=None):
 		SELECT ep.name AS exhibit,
 			ep.organizer,
 			org.customer AS customer,
-			ep.billing_status,
+			ep.status AS billing_status,
 			ep.lifecycle_stage,
 			(SELECT COUNT(*) FROM `tabMICE Project Billing` b WHERE b.parent = ep.name) AS billing_lines,
 			(SELECT COUNT(*) FROM `tabMICE Project Billing` b WHERE b.parent = ep.name AND b.status = 'Invoiced') AS invoiced_lines

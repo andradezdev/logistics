@@ -38,8 +38,8 @@ def get_data(filters):
 			ss.origin_port,
 			ss.destination_port,
 			COUNT(DISTINCT ss.name) as total_shipments,
-			SUM(ss.weight) as total_weight,
-			SUM(ss.volume) as total_volume,
+			SUM(ss.total_weight) as total_weight,
+			SUM(ss.total_volume) as total_volume,
 			SUM(ss.chargeable) as total_chargeable,
 			SUM(COALESCE(charge_agg.total_charges, 0)) as total_revenue
 		FROM `tabSea Shipment` ss

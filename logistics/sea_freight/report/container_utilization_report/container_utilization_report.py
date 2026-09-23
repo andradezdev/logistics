@@ -97,8 +97,8 @@ def get_data(filters):
 			COUNT(*) as total_containers,
 			COALESCE(SUM(sship.total_weight), 0) as total_weight,
 			COALESCE(SUM(sship.total_volume), 0) as total_volume,
-			COALESCE(MAX(ct.max_weight), 0) as max_weight,
-			COALESCE(MAX(ct.max_volume), 0) as max_volume
+			COALESCE(MAX(ct.max_gross_weight), 0) as max_weight,
+			COALESCE(MAX(ct.length * ct.width * ct.height / 1000000.0), 0) as max_volume
 		FROM
 			`tabSea Freight Containers` sfc
 		INNER JOIN

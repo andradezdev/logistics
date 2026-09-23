@@ -108,9 +108,9 @@ def get_data(filters):
 			aship.sales_quote,
 			aship.billing_status,
 			COALESCE(SUM({afc_selling}), 0) as total_charges,
-			COALESCE(aship.billing_amount, 0) as billing_amount,
-			aship.billing_date,
-			aship.sales_invoice,
+			COALESCE(SUM(CASE WHEN aschg.sales_invoice IS NOT NULL THEN {afc_selling} ELSE 0 END), 0) as billing_amount,
+			MAX(aschg.bill_to_exchange_rate_date) as billing_date,
+			GROUP_CONCAT(DISTINCT aschg.sales_invoice SEPARATOR ', ') as sales_invoice,
 			COALESCE(
 				MAX(aschg.currency),
 				(SELECT c.default_currency FROM `tabCompany` c WHERE c.name = aship.company LIMIT 1),

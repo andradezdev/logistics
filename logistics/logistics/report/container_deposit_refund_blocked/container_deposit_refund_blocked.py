@@ -24,6 +24,8 @@ def get_columns():
 
 def get_data(filters):
 	out = []
+	if not frappe.db.has_column('Container', 'deposit_amount'):
+		return []
 	containers = frappe.get_all(
 		"Container",
 		filters=[["deposit_amount", ">", 0], ["return_status", "!=", "Returned"]],

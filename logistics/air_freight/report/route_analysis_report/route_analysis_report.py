@@ -102,8 +102,8 @@ def get_data(filters):
 			aship.origin_port,
 			aship.destination_port,
 			COUNT(DISTINCT aship.name) as total_shipments,
-			SUM(aship.weight) as total_weight,
-			SUM(aship.volume) as total_volume,
+			SUM(aship.total_weight) as total_weight,
+			SUM(aship.total_volume) as total_volume,
 			SUM(aship.chargeable) as total_chargeable,
 			COALESCE(SUM({afc_selling}), 0) as total_revenue,
 			CASE

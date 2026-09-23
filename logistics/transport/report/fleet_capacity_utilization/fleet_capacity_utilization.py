@@ -43,8 +43,10 @@ def get_columns(filters):
 
 def get_data(filters):
 	filters = filters or {}
-	from_date = filters.get("from_date")
-	to_date = filters.get("to_date")
+	from_date = filters.get("from_date") or frappe.utils.add_months(frappe.utils.nowdate(), -1)
+	to_date = filters.get("to_date") or frappe.utils.nowdate()
+	filters["from_date"] = from_date
+	filters["to_date"] = to_date
 	group_by = filters.get("group_by") or "Vehicle Type"
 	vehicle_type = filters.get("vehicle_type")
 	vehicle = filters.get("vehicle")

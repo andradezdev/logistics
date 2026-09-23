@@ -21,15 +21,15 @@ def execute(filters=None):
 		conditions.append("ep.customer = %(customer)s")
 		values["customer"] = filters["customer"]
 	if filters.get("billing_status"):
-		conditions.append("ep.billing_status = %(billing_status)s")
+		conditions.append("ep.status = %(billing_status)s")
 		values["billing_status"] = filters["billing_status"]
 	where = " AND ".join(conditions)
 	rows = frappe.db.sql(
 		f"""
-		SELECT ep.name AS show, ep.customer, ep.billing_status, ep.lifecycle_stage,
+		SELECT ep.name AS exhibit, ep.customer, ep.status AS billing_status, ep.lifecycle_stage,
 			(SELECT COUNT(*) FROM `tabExhibit Billing` b WHERE b.parent = ep.name) AS billing_lines,
 			(SELECT COUNT(*) FROM `tabExhibit Billing` b WHERE b.parent = ep.name AND b.status = 'Invoiced') AS invoiced_lines
-		FROM `tabShow` ep
+		FROM `tabExhibit` ep
 		WHERE {where}
 		ORDER BY ep.modified DESC
 		""",

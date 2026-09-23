@@ -1,3 +1,4 @@
+from frappe import _
 # Copyright (c) 2025, www.agilasoft.com
 # MIT License. Part of logistics.warehousing
 

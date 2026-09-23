@@ -148,7 +148,7 @@ def get_data(filters):
 		ORDER BY total_distance DESC
 	""".format(conditions_clause=conditions_clause)
 	
-	data = frappe.db.sql(query, values, as_dict=True)
+	data = frappe.db.sql(query, values, as_dict=True) if values else frappe.db.sql(query, as_dict=True)
 	
 	# Process data and calculate performance metrics
 	for row in data:
