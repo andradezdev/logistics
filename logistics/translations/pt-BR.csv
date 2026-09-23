@@ -1,6 +1,8 @@
 ABC Report,Relatório de ABC
+Accounting & Finance,Contabilidade e Finanças
 Accounting Details,Detalhes Contábeis
 Active,Ativo
+Activity Code,Código de Atividade
 Actual Arrival,Chegada Efetiva (ATA)
 Actual Cost,Custo Real
 Actual Departure,Saída Efetiva (ATD)
@@ -9,27 +11,44 @@ Ad-Hoc Factors Settings,Configurações de Ad-Hoc Factors
 Additional Details,Detalhes de Additional
 Additional Settings,Configurações de Additional
 Address,Endereço
+"Aduana, Cotações & Projetos","Aduana, Cotações e Projetos"
+Agent Concentration,Concentração por Agente
+Agents,Agentes de Carga
+Aging & Overdue,Vencimentos e Inadimplência
+Aging &amp; Trends,Vencimentos e Tendências
 Air Booking,Reserva Aérea (Air Booking)
 Air Booking Charges,Cobranças da Reserva Aérea
 Air Booking Packages,Volumes da Reserva Aérea
+Air Bookings,Reservas Aéreas
 Air Consolidation,Consolidação Aérea
 Air Consolidation Charges,Cobranças de Consolidação Aérea
 Air Consolidation Packages,Volumes de Consolidação Aérea
 Air Consolidation Report,Relatório de Consolidação Aérea
+Air Consolidations,Consolidações Aéreas
 Air Freight,Frete Aéreo
-Air Freight On-Time Performance Report,Relatório de Air Freight On-Time Performance
-Air Freight Performance Dashboard,Painel de Air Freight Performance
+Air Freight Cost Analysis,Análise de Custo de Frete Aéreo
+Air Freight On-Time Performance Report,Relatório de Pontualidade do Frete Aéreo
+Air Freight Operations Dashboard,Painel Operacional do Frete Aéreo
+Air Freight Performance Dashboard,Painel de Desempenho do Frete Aéreo
+Air Freight Revenue Analysis,Análise de Receita de Frete Aéreo
 Air Freight Settings,Configurações de Frete Aéreo
 Air Shipment,Embarque Aéreo (Air Shipment)
 Air Shipment Charges,Cobranças do Embarque Aéreo
 Air Shipment Packages,Volumes de Embarque Aéreo (Air Shipment)
-Air Shipment Status Report,Relatório de Air Shipment Status
+Air Shipment Status Report,Relatório de Status de Embarques Aéreos
+Air Shipments,Embarques Aéreos
 Airline,Companhia Aérea
-Airline Performance Report,Relatório de Airline Performance
+Airline Concentration,Concentração por Companhia Aérea
+Airline Concenttration,Concentração por Companhia Aérea
+Airline Membership,Afiliação a Companhias Aéreas
+Airline Organizations,Associações e Entidades Aéreas
+Airline Performance Report,Relatório de Desempenho de Companhias Aéreas
+Airlines,Companhias Aéreas
 Airport,Aeroporto
 Alert Settings,Configurações de Alert
 Amount,Valor
 Amount Details,Detalhes de Valor
+Analytics & Insights,Análises e Indicadores
 Apply Charges,Cobranças de Apply
 Apply Selected Charges,Cobranças de Apply Selected
 Approved,Aprovado
@@ -39,91 +58,142 @@ Attachment,Anexo
 Attachments,Anexos
 Auto-Populate Settings,Configurações de Auto-Populate
 Auto-Populate UNLOCO Details,Detalhes de Auto-Populate UNLOCO
+Bad Account Entry,Lançamento de Devedor Duvidoso
+Bank Reconciliation Discrepancy,Divergência de Conciliação Bancária
+Batch Expiry Risk,Risco de Validade de Lotes
 Bill To,Faturar Para
 Billing Currency,Moeda de Faturamento
 Billing Settings,Configurações de Billing
-Billing Status Report,Relatório de Billing Status
+Billing Status Report,Relatório de Status de Faturamento
 Billing Time Settings,Configurações de Billing Time
 Booking Confirmed,Reserva Confirmada
 Booking Details,Detalhes de Booking
+Bookings and Orders,Reservas e Ordens
 Branch,Filial
+Brands Management,Gestão de Marcas
+Broker,Despachante / Corretor
 Business Settings,Configurações de Business
+CA eManifest Forwarder,Manifesto Canadá eManifest
+CI Charge Code,Código de Cobrança Comercial
 CO2 Emission Calculator,Calculadora de Emissão de CO2
-CT Accounting Finance Summary,Resumo de CT Accounting Finance
-CT GP Summary,Resumo de CT GP
-CT HR Summary,Resumo de CT HR
-CT Haulage Intercompany Charges,Cobranças de CT Haulage Intercompany
-CT IT Summary,Resumo de CT IT
+CT Accounting Finance Summary,Resumo Contábil e Financeiro
+CT Facility Occupancy,Ocupação Física de Instalações
+CT GP Summary,Resumo de Lucro Bruto (GP)
+CT HR Summary,Resumo de Recursos Humanos
+CT Handling In Out,Movimentações de Entrada e Saída
+CT Haulage Intercompany Charges,Cobranças Intercompany de Transporte
+CT IT Summary,Resumo de Tecnologia da Informação
+CT Jobs KPI,Indicadores Operacionais de Processos
+CT Pipeline Listing,Listagem do Funil de Oportunidades
+CT Returned Billings,Faturamentos Devolvidos / Glosas
+CT Risk Register Listing,Listagem da Matriz de Riscos
+CT Top Agents Volumes,Maiores Agentes por Volume
+CT Top Carriers Volumes,Maiores Companhias / Armadores por Volume
+CT Top Clients by GP,Principais Clientes por Lucro Bruto
+CT Top Outsourced Brokers,Principais Despachantes Terceirizados
+CT Top Outsourced Truckers,Principais Transportadores Terceirizados
+CT Trips Per Month,Viagens Realizadas por Mês
 Calculate Volume,Calcular Volume e Peso Taxável
 Calculation Details,Detalhes de Calculation
 Calculation Settings,Configurações de Calculation
 Canada eManifest Settings,Configurações de Canada eManifest
 Cancelled,Cancelado
-Capacity Forecasting Report,Relatório de Capacity Forecasting
+Capacity Forecasting Report,Relatório de Previsão de Capacidade
+Capacity Management,Gestão de Capacidade
 Capacity Settings,Configurações de Capacity
 Carbon Emission Log,Registro de Emissões de Carbono
-Carbon Footprint Dashboard,Painel de Carbon Footprint
-Carbon Footprint Report,Relatório de Carbon Footprint
+Carbon Footprint,Pegada de Carbono
+Carbon Footprint Dashboard,Painel de Pegada de Carbono
+Carbon Footprint Report,Relatório de Pegada de Carbono
 Cargo Details,Detalhes da Mercadoria
+Cargo Terminal Operator,Operador de Terminal de Carga
 CargoNext,CargoNext
 CargoNext Logistics Hub,Central de Logística CargoNext
 Carrier,Transportadora / Companhia
 Cash Acknowledgment,Recibo de Caixa
 Cash Advance,Adiantamento de Despesas
 Cash Advance Liquidation,Prestação de Contas de Adiantamento
+Cash Advance Liquidation Aging,Vencimentos de Prestação de Contas
+Cash Advance Reason Code,Motivo do Adiantamento
 Cash Advance Request,Solicitação de Adiantamento
+Cash Advance Requests Trend,Tendência de Solicitações de Adiantamento
 Cash Advance Settings,Configurações de Adiantamento
+Cash Advances Released This Month,Adiantamentos Liberados no Mês
 Certificate of Origin,Certificado de Origem
 Charge Line,Linha de Cobrança
 Charge Type,Tipo de Cobrança
 Chargeable Weight,Peso Taxável
 Charges,Cobranças e Tarifas
 City,Cidade
+Client Credit Line,Linha de Crédito do Cliente
 Closed,Fechado
 Code,Código
 Commercial Invoice,Fatura Comercial (Commercial Invoice)
 Commercial Invoice Charges,Cobranças de Fatura Comercial (Commercial Invoice)
-Commodity,Descrição da Mercadoria
+Commodities,Nomenclatura / Mercadorias
+Commodity,Mercadoria
 Company,Empresa
 Completed,Concluído
+Compliance Reports,Relatórios de Conformidade
 Compliance Settings,Configurações de Compliance
-Consignee,Importador / Destinatário (Consignee)
+Concentration & Workload,Concentração e Carga de Trabalho
+Consignee,Importador / Destinatário
+Consignees,Importadores / Destinatários
 Consolidation Charges,Cobranças de Consolidation
 Consolidation Details,Detalhes de Consolidation
 Consolidation Packages,Volumes de Consolidation
-Consolidation Savings Report,Relatório de Consolidation Savings
+Consolidation Savings Report,Relatório de Economia por Consolidação
 Consolidation Settings,Configurações de Consolidation
+Consolidations,Consolidações
 Contact,Contato
 Container,Contêiner
 Container Charges,Cobranças de Contêiner
 Container Deposit,Depósito / Caução de Contêiner
 Container Deposit Report,Relatório de Depósito / Caução de Contêiner
+Container Depot,Depósito de Contêineres (Depot)
+Container Freight Station,Estação Aduaneira de Cargas (CFS)
 Container Management,Gestão de Contêineres
-Container Penalty Report,Relatório de Container Penalty
-Container Status Report,Relatório de Container Status
-Container Utilization Report,Relatório de Container Utilization
+Container Movement,Movimentação de Contêiner
+Container Penalty Report,Relatório de Penalidades e Demurrage
+Container Status Report,Relatório de Status de Contêineres
+Container Type,Tipo de Contêiner
+Container Utilization Report,Relatório de Utilização de Contêineres
+Container Utilization Report ,Relatório de Utilização de Contêineres
+Container Yard,Pátio de Contêineres (CY)
+Containers,Contêineres
+Containers with Penalties,Contêineres com Penalidades / Sobrestadia
 Control Tower,Torre de Controle
 Control Tower GP Target,Meta de Lucro Bruto (GP)
 Control Tower Organization,Organização da Torre de Controle
-Cost Analysis Report,Relatório de Cost Analysis
+Cost Analysis Report,Relatório de Análise de Custos
+Cost Analysis Reports,Relatórios de Análise de Custo
 Cost Center,Centro de Custo
+Cost Center Reports,Relatórios de Centros de Custo
+Cost Centers,Centros de Custo
+Cost Sheet,Planilha de Custos
+Count Sheet,Folha de Contagem
 Country,País
 Create Purchase Invoice,Gerar Fatura de Compra
 Create Sales Invoice,Gerar Fatura de Venda
-Cross Module Summary Report,Relatório de Cross Module Summary
+Cross Module Summary Report,Relatório Integrado Multimodais
 Cross-Docking Order,Ordem de Cross-Docking
 Cross-Docking Order Charges,Cobranças de Ordem de Cross-Docking
 Customer,Cliente
+Customer Items,Itens do Cliente
+Customer Setup,Parâmetros do Cliente
 Customs,Desembaraço Aduaneiro
+Customs Authority,Autoridade Aduaneira / Receita
 Customs Broker,Despachante Aduaneiro
 Customs Cleared,Desembaraçado
-Customs Compliance Report,Relatório de Customs Compliance
-Customs Dashboard,Painel de Desembaraço Aduaneiro
+Customs Compliance Report,Relatório de Conformidade Aduaneira
+Customs Dashboard,Painel de Controle Aduaneiro
+Customs Declaration Executive Snapshot,Resumo Executivo de Declarações Aduaneiras
 Customs Details,Detalhes de Desembaraço Aduaneiro
-Customs Settings,Configurações de Desembaraço Aduaneiro
+Customs Operations Dashboard,Painel Operacional Aduaneiro
+Customs Settings,Configurações Aduaneiras
 Customs Tariff,Tarifa Aduaneira
 DST Zone Details,Detalhes de DST Zone
-Dangerous Goods Compliance Report,Relatório de Dangerous Goods Compliance
+Dangerous Goods Compliance Report,Relatório de Conformidade de Cargas Perigosas
 Dangerous Goods Declaration,Declaração de Cargas Perigosas (DGD)
 Dangerous Goods Declaration Packages,Volumes de Declaração de Cargas Perigosas (DGD)
 Dangerous Goods Packages,Volumes de Dangerous Goods
@@ -135,8 +205,8 @@ Declaration Details,Detalhes de Declaração Aduaneira
 Declaration Order,Ordem de Desembaraço Aduaneiro
 Declaration Order Charges,Cobranças de Ordem de Desembaraço Aduaneiro
 Declaration Settings,Configurações de Declaração Aduaneira
-Declaration Status Report,Relatório de Declaration Status
-Declaration Value Report,Relatório de Declaration Value
+Declaration Status Report,Relatório de Status de Declarações
+Declaration Value Report,Relatório de Valores Aduaneiros
 Default Settings,Configurações de Default
 Delayed,Atrasado
 Delivered,Entregue
@@ -150,25 +220,38 @@ Details,Detalhes
 Detention,Detention (Retenção de Contêiner)
 Dimensions,Dimensões
 Disabled,Desabilitado
+Dispatcher,Despachante de Carga
 Docket,Dossiê Operacional
 Docking Details,Detalhes de Docking
+Document List Template,Modelo de Lista de Documentos
+Document List Templates,Modelos de Lista de Documentos
 Document Settings,Configurações de Document
 Document Summary,Resumo de Document
+Document Types,Tipos de Documento
+Documentation,Documentação
 Documents,Documentos e Anexos
 Download PDF,Baixar PDF
-Driver Performance Report,Relatório de Driver Performance
+Driver,Motorista
+Driver Performance Report,Relatório de Desempenho de Motoristas
 Drop Details,Detalhes de Drop
 Drop Window,Janela de Entrega
+Economic Zone,Zona Econômica Especial / Porto Seco
 Email,E-mail
+Emission Factors,Fatores de Emissão de Carbono
 Employee,Colaborador
 Enabled,Habilitado
-Energy Consumption Report,Relatório de Energy Consumption
-Energy Efficiency Report,Relatório de Energy Efficiency
+Energy Consumption,Consumo de Energia
+Energy Consumption Report,Relatório de Consumo de Energia
+Energy Efficiency Report,Relatório de Eficiência Energética
 Error Details,Detalhes de Error
 Estimated Cost,Custo Estimado
 Estimated Revenue,Receita Estimada
 Event Job Details,Detalhes de Event Job
 Event Leg Details,Detalhes de Event Leg
+Executive Snapshor,Visão Executiva Consolidada
+Executive Snapshot,Visão Executiva Consolidada
+Exemption Certificate,Certificado de Isenção Fiscal
+Exemption Type,Tipo de Isenção
 Exhibit,Feira / Exposição
 Exhibit Activity Status Report,Relatório de Exhibit Activity Status
 Exhibit Billing Status Report,Relatório de Exhibit Billing Status
@@ -177,77 +260,116 @@ Exhibit Consolidation Charges,Cobranças de Exhibit Consolidation
 Exhibit Pipeline Report,Relatório de Exhibit Pipeline
 Exhibit Settings,Configurações de Feira / Exposição
 Exhibits,Feiras e Exposições
+Exporter Category,Categoria de Exportador
 Facility Occupancy,Ocupação da Instalação
-Filing Compliance Report,Relatório de Filing Compliance
+Filing Compliance Report,Relatório de Conformidade de Registros
 Financial Overview,Visão Financeira
 Flight Details,Detalhes de Flight
 Flight Route,Rota de Voo
 Flight Schedule,Programação de Voos
 Flight Schedule Settings,Configurações de Programação de Voos
 Forwarding Agent,Agente de Carga (Freight Forwarder)
+Freight Agent,Agente de Carga
 Freight Term,Condição de Frete (Prepaid / Collect)
+Frete Internacional (Air & Sea),Frete Internacional (Aéreo e Marítimo)
+Fuel Consumption Analysis,Análise de Consumo de Combustível
 General Details,Dados Gerais
 General Settings,Configurações de General
 Get Charges from Quotation,Importar Cobranças da Cotação
 Get Charges from Tariff,Aplicar Tarifas da Tabela
-Global Customs Dashboard,Painel de Global Customs
+Global Customs,Aduana Global
+Global Customs Dashboard,Painel Aduaneiro Global
+Global Manifest,Manifesto Global
+GoConnect Settings (Flight),Configurações GoConnect (Voos)
 Goods Details,Detalhes de Goods
 GrabExpress Settings,Configurações de GrabExpress
 Gross Profit,Lucro Bruto (GP)
 Gross Weight,Peso Bruto
-Handling Charges,Cobranças de Handling
+Handling,Manuseio de Carga
+Handling Charges,Taxas de Manuseio (Handling)
 Handling Instructions,Instruções de Manuseio
+Handling Unit,Unidade de Manuseio
+Handling Unit Capacity,Capacidade da Unidade de Manuseio
+Handling Unit Type,Tipo de Unidade de Manuseio
 Haulage,Transporte Rodoviário / Carreto
 Height,Altura (cm)
 High Value,Cargas de Alto Valor
 House Air Waybill,Conhecimento Aéreo Filhote (HAWB)
 House Bill,Conhecimento Marítimo Filhote (HBL)
 House Details,Detalhes de House
+Human Resources,Recursos Humanos
 IATA Settings,Configurações IATA
 ISO Container Details,Detalhes de ISO Container
 Import Duty,Imposto de Importação
 In Transit,Em Trânsito
-Inbound Order,Ordem de Recebimento / Entrada
+Inbound Order,Ordem de Entrada / Recebimento
 Inbound Order Charges,Cobranças de Ordem de Recebimento / Entrada
 Incoterm,Incoterm
+Incoterms,Incoterms
+Information Technology,Tecnologia da Informação
 Integration Settings,Configurações de Integration
-Intercompany Settings,Configurações de Intercompany
+Intercompany,Operações Intercompany
+Intercompany Invoice Log,Registro de Faturas Intercompany
+Intercompany Settings,Configurações Intercompany
+Investment Holding,Aplicações e Investimentos
 Invoice Charges,Cobranças de Invoice
 Invoice Details,Detalhes de Invoice
 Item,Item / Mercadoria
+JP AFR,Declaração Japão AFR
 Japan AFR Settings,Configurações de Japan AFR
 Job Details,Detalhes de Job
 Job Lifecycle,Ciclo de Vida da Operação
 Job Management,Gestão Operacional de Serviços
-Job Milestone,Marco do Processo
-Labor Productivity Report,Relatório de Labor Productivity
+Job Milestone,Marco Operacional
+Labor Productivity Report,Relatório de Produtividade da Mão de Obra
 Lalamove Settings,Configurações de Lalamove
 Leg Details,Detalhes de Leg
 Length,Comprimento (cm)
 Live Tracking,Rastreamento em Tempo Real
+Location Configurator,Configurador de Localizações
 Location Settings,Configurações de Location
+Locations,Localizações
 Lock Charges,Travar Cobranças
 Logistics Details,Detalhes de Logistics
+Logistics Document Type,Tipo de Documento Logístico
+Logistics Service Level,Nível de Serviço Logístico
 Logistics Settings,Configurações de Logistics
 MICE,Eventos e Convenções (MICE)
-MICE Activity Status Report,Relatório de MICE Activity Status
-MICE Billing Status Report,Relatório de MICE Billing Status
-MICE Pipeline Report,Relatório de MICE Pipeline
+MICE Activity Status Report,Relatório de Atividades MICE
+MICE Billing Status Report,Relatório de Faturamento MICE
+MICE Job,Serviço MICE
+MICE Order,Ordem MICE
+MICE Organizer,Organizador de Eventos
+MICE Pipeline Report,Relatório de Funil de Eventos MICE
 MICE Project,Projeto MICE (Eventos)
 MICE Project Charges,Cobranças de Projeto MICE (Eventos)
 MICE Project Consolidation Charges,Cobranças de MICE Project Consolidation
 MICE Project Details,Detalhes de Projeto MICE (Eventos)
-MICE Settings,Configurações de Eventos e Convenções (MICE)
-Machine Productivity Report,Relatório de Machine Productivity
-Manifest Settings,Configurações de Manifest
-Manifest Status Report,Relatório de Manifest Status
+MICE Settings,Configurações MICE
+MICE Type,Tipo de Evento MICE
+Machine Productivity Report,Relatório de Produtividade de Máquinas
+Manifest Settings,Configurações de Manifestos
+Manifest Status Report,Relatório de Status de Manifestos
 Marks & Numbers,Marcas e Números
 Master Air Waybill,Conhecimento Aéreo Master (MAWB)
 Master Bill,Conhecimento Marítimo Master (B/L Master)
+Master Data,Dados Mestres
 Master Details,Detalhes de Master
+Master Files,Arquivos Mestres
+Master Files & Setup,Cadastros Gerais e Configurações
+Master Files &amp; Setup,Cadastros Gerais e Configurações
+Masters,Cadastros Mestres
+Masters &amp; Settings,Cadastros e Configurações
+Masters Files and Setup,Arquivos Mestres e Configurações
+Masters and Settings,Cadastros e Configurações
 Milestone,Marco / Etapa Operacional
+Milestone Template,Modelo de Marcos Operacionais
+Milestone Templates,Modelos de Marcos Operacionais
 Milestones,Marcos Operacionais
+Modes,Modais de Transporte
 Module Settings,Configurações de Module
+Monitoring,Monitoramento Operacional
+Módulos e Operações Logísticas,Módulos e Operações Logísticas
 Net Weight,Peso Líquido
 Netting,Compensação de Contas (Netting)
 NinjaVAN Settings,Configurações de NinjaVAN
@@ -256,18 +378,27 @@ Notification Settings,Configurações de Notification
 Notify Party,Notificado (Notify Party)
 Number of Packages,Quantidade de Volumes
 ODDS Settings,Configurações de ODDS
-On-Time Delivery Report,Relatório de On-Time Delivery
-On-Time Performance Report,Relatório de On-Time Performance
+On-Time Delivery Report,Relatório de Entregas no Prazo (OTD)
+On-Time Performance Report,Relatório de Pontualidade (On-Time)
 Open,Aberto
+Open Air Shipments,Embarques Aéreos em Aberto
+Open Cash Advance Requests,Solicitações de Adiantamento Abertas
+Operational,Operacional
 Operational Details,Detalhes de Operational
 Operational Exchange Rate,Taxa de Câmbio Operacional
+Operational Monitoring,Monitoramento Operacional
+Operational Reports,Relatórios Operacionais
 Operations,Operações
+Operations Supplements,Suplementos Operacionais
 Order Details,Detalhes de Order
+Organizations,Entidades e Organizações
 Origin,Origem
 Origin Details,Detalhes de Origem
 Other Charges,Cobranças de Other
 Other Details,Detalhes de Other
 Outlook Calendar Settings,Configurações de Outlook Calendar
+Outstanding Deposits,Cauções / Depósitos a Devolver
+Overdue Unliquidated,Prestações de Contas Vencidas
 Package Type,Tipo de Embalagem
 Packages & Cargo,Volumes e Mercadorias
 Packing List,Romaneio de Carga (Packing List)
@@ -275,15 +406,22 @@ PandaGo Settings,Configurações de PandaGo
 Payment Term,Condição de Pagamento
 Penalty Settings,Configurações de Penalty
 Pending Approval,Pendente de Aprovação
+Pending Consolidations,Consolidações Pendentes
 Performance Settings,Configurações de Performance
+Periodic Billing,Faturamento Periódico
 Periodic Billing Charges,Cobranças de Periodic Billing
+Permit Application,Solicitação de Licença / Permissão
 Permit Details,Detalhes de Permit
+Permit Type,Tipo de Licença / Permissão
 Phone,Telefone
 Pick Details,Detalhes de Pick
 Pick Window,Janela de Coleta
 Pieces,Peças / Unidades
+Pipeline & Trends,Funil de Vendas e Tendências
 Pipeline Entry,Oportunidade no Funil (Pipeline)
 Planned,Planejado
+Planning,Planejamento
+Plate Scanner,Leitor de Placas
 Port Charges,Cobranças de Port
 Port of Discharge,Porto de Descarga
 Port of Loading,Porto de Embarque
@@ -295,145 +433,227 @@ Pricing Center,Central de Precificação
 Pricing Center Settings,Configurações de Central de Precificação
 Print Document,Imprimir Documento
 Profit Center,Centro de Lucro
+Profit Center Reports,Relatórios de Centros de Lucro
+Profit Centers,Centros de Lucro
 Profit Margin,Margem de Lucro
 Profitability,Demonstrativo de Rentabilidade
 Project Job,Serviço de Projeto
+Project Order,Ordem de Projeto
+Project Resource,Recurso do Projeto
 Project Task Order,Ordem de Tarefas do Projeto
+Project Task Type,Tipo de Tarefa do Projeto
+Project Type,Tipo de Projeto
 Projects Report,Relatório de Projects
 Quantity,Quantidade
+Quick Access,Acesso Rápido
 Quotation Details,Detalhes de Quotation
 Quote Charges,Cobranças de Quote
 Quote Details,Detalhes de Quote
 Rate,Taxa / Preço Unitário
+Rates & Tariffs,Taxas e Tarifas
 Recognition Policy Settings,Configurações de Recognition Policy
 Reference,Referência
+Reference Files,Arquivos de Referência
 Refresh Tracking,Atualizar Rastreamento
+Registry,Cadastros
+Registry & Planning,Cadastros e Planejamento
 Rejected,Rejeitado
-Release Order,Ordem de Expedição / Saída
+Release Order,Ordem de Saída / Expedição
 Release Order Charges,Cobranças de Ordem de Expedição / Saída
 Released,Liberado
 Remarks,Comentários
 Reopen Job,Reabrir Processo
 Reporting Settings,Configurações de Reporting
 Reports,Relatórios
+Reports & Analysis,Relatórios e Análises
+Reports &amp; Analysis,Relatórios e Análises
+Reports and Analysis,Relatórios e Análises
 Resource Center,Centro de Recursos
+Resource Center Reports,Relatórios de Centros de Recursos
+Resource Center Trackers,Rastreadores de Centros de Recursos
+Resource Centers,Centros de Recursos
 Returned Billing,Faturamento Devolvido / Glosa
-Revenue Recognition Policy Settings,Configurações de Revenue Recognition Policy
+Revenue Recognition Policy Settings,Configurações de Reconhecimento de Receita
 Risk Register Entry,Registro de Risco
-Road Compliance Report,Relatório de Road Compliance
-Route Analysis Report,Relatório de Route Analysis
+Road Compliance Report,Relatório de Conformidade Rodoviária
+Route Analysis Report,Relatório de Análise de Rotas
 Route Details,Detalhes de Route
 Routing & Schedule,Rotas e Prazos
 Routing Details,Detalhes de Routing
 Run Sheet,Folha de Rota / Viagem
 Sales Quote,Cotação de Venda
+Sales Quote Monthly Throughput Index,Índice de Volume Mensal de Cotações
 Sales Quote Pack,Pacote de Cotações
+Sales Quote Status Funnel Mix,Funil de Conversão de Cotações
+Sales Quote Weekly Throughput Index,Índice de Volume Semanal de Cotações
+Sales Quote analytics,Análise de Cotações de Venda
+Scan Run Sheet,Bipar / Escanear Folha de Rota
 Sea Booking,Reserva Marítima (Sea Booking)
 Sea Booking Charges,Cobranças da Reserva Marítima
 Sea Booking Packages,Volumes de Reserva Marítima (Sea Booking)
+Sea Bookings,Reservas Marítimas
 Sea Consolidation,Consolidação Marítima
 Sea Consolidation Charges,Cobranças de Consolidação Marítima
 Sea Consolidation Packages,Volumes de Consolidação Marítima
 Sea Consolidation Report,Relatório de Consolidação Marítima
 Sea Freight,Frete Marítimo
-Sea Freight Billing Status Report,Relatório de Sea Freight Billing Status
-Sea Freight On-Time Performance Report,Relatório de Sea Freight On-Time Performance
+Sea Freight Billing Status Report,Relatório de Faturamento de Frete Marítimo
+Sea Freight Cost Analysis,Análise de Custo de Frete Marítimo
+Sea Freight On-Time Performance Report,Relatório de Pontualidade do Frete Marítimo
+Sea Freight Operations Dashboard,Painel Operacional do Frete Marítimo
 Sea Freight Packages,Volumes de Frete Marítimo
-Sea Freight Performance Dashboard,Painel de Sea Freight Performance
+Sea Freight Performance Dashboard,Painel de Desempenho do Frete Marítimo
+Sea Freight Revenue Analysis,Análise de Receita de Frete Marítimo
+Sea Freight Route Analysis,Relatório de Análise de Rotas Marítimas
 Sea Freight Settings,Configurações de Frete Marítimo
 Sea Shipment,Embarque Marítimo (Sea Shipment)
 Sea Shipment Charges,Cobranças do Embarque Marítimo
-Sea Shipment Status Report,Relatório de Sea Shipment Status
+Sea Shipment Status Report,Relatório de Status de Embarques Marítimos
+Sea Shipment Status Report ,Relatório de Status de Embarques Marítimos
+Sea Shipments,Embarques Marítimos
 Send Email,Enviar por E-mail
 Service Level Details,Detalhes de Service Level
+Service Levels,Níveis de Serviço (SLA)
 Settings,Configurações
 Settlement Details,Detalhes de Settlement
+Settlement Entry,Liquidação / Fechamento de Compensação
+Settlement Group,Grupo de Compensação
 Shipment Details,Detalhes de Shipment
-Shipper,Exportador / Embarcador (Shipper)
+Shipper,Exportador / Embarcador
+Shippers,Exportadores / Embarcadores
 Shipping Line,Armador / Linha de Navegação
-Shipping Line Performance Report,Relatório de Shipping Line Performance
+Shipping Line Performance Report,Relatório de Desempenho de Armadores
+Shortcuts,Atalhos
 Source Exchange Rate,Taxa de Câmbio de Origem
+Special Handling Equipment Type,Equipamento para Manuseio Especial
+Special Handling Type,Tipo de Manuseio Especial
 Special Instructions,Instruções Especiais
 Special Project,Projeto Especial
-Special Project Billing Status Report,Relatório de Special Project Billing Status
+Special Project Billing Status Report,Relatório de Faturamento de Projetos Especiais
 Special Project Charges,Cobranças de Projeto Especial
-Special Project Cost vs Revenue Report,Relatório de Special Project Cost vs Revenue
-Special Project Pipeline Report,Relatório de Special Project Pipeline
-Special Project Profitability Report,Relatório de Special Project Profitability
-Special Project Settings,Configurações de Projeto Especial
+Special Project Cost vs Revenue Report,Relatório de Custo vs Receita de Projetos
+Special Project Pipeline Report,Relatório de Funil de Projetos Especiais
+Special Project Profitability Report,Relatório de Rentabilidade de Projetos
+Special Project Settings,Configurações de Projetos Especiais
 Special Projects,Projetos Especiais
 Special Projects Report,Relatório de Projetos Especiais
-Special Projects by Customer Report,Relatório de Special Projects by Customer
+Special Projects by Customer Report,Relatório de Projetos Especiais por Cliente
 Standard Costing Settings,Configurações de Standard Costing
 Standard Details,Detalhes de Standard
 Started,Iniciado
 State,Estado / UF
 Status,Status
+Status Pipeline,Funil de Status Operacional
+Stock Reports,Relatórios de Estoque
+Stocktake Order,Ordem de Inventário Físico
 Stocktake Order Charges,Cobranças de Stocktake Order
+Storage,Armazenagem
 Storage Details,Detalhes de Storage
+Storage Facility,Instalação de Armazenagem
 Storage Location,Localização no Armazém
+Storage Location Usage,Utilização de Posições de Armazém
+Storage Type,Tipo de Armazenagem
+Strategic Planning,Planejamento Estratégico
 Summary,Resumo
 Supplier,Fornecedor
+Supplier Cash Bond,Caução / Garantia de Fornecedor
 Sustainability,Sustentabilidade e Carbono
-Sustainability Compliance Report,Relatório de Sustainability Compliance
-Sustainability Dashboard Report,Relatório de Sustainability Dashboard
-Sustainability Goals Report,Relatório de Sustainability Goals
-Sustainability Metrics Report,Relatório de Sustainability Metrics
-Sustainability Report,Relatório de Sustentabilidade e Carbono
-Sustainability Settings,Configurações de Sustentabilidade e Carbono
+Sustainability Compliance Report,Relatório de Conformidade Ambiental
+Sustainability Dashboard Report,Painel de Indicadores de Sustentabilidade
+Sustainability Goals,Metas de Sustentabilidade ESG
+Sustainability Goals Report,Relatório de Metas de Sustentabilidade
+Sustainability Metrics,Métricas ESG
+Sustainability Metrics Report,Relatório de Métricas ESG
+Sustainability Report,Relatório de Sustentabilidade
+Sustainability Settings,Configurações de Sustentabilidade
 Sync Details,Detalhes de Sync
 Sync Schedulers,Sincronizar Programações
 Tariff,Tabela de Tarifas
-Tariff Charge,Item de Tarifa
+Tariff Charge,Item da Tarifa
+Tariffs,Tabelas de Tarifas
+Tax Category,Categoria de Tributação
 Telematics Settings,Configurações de Telematics
+Terminal,Terminal Portuário / Retroportuário
 Terminal Handling Charges,Cobranças de Terminal Handling
 Terms and Conditions Details,Detalhes de Terms and Conditions
+Top Payees by Unliquidated,Principais Favorecidos com Pendências
 Total,Total
 Total Charges,Cobranças de Total
 Total Cost,Custo Total
 Total Packages,Total de Volumes
 Total Revenue,Receita Total
+Total Unliquidated,Total Pendente de Prestação de Contas
 Track Shipment,Rastrear Carga
 Tracking,Rastreamento
 Transfer Order,Ordem de Transferência
 Transfer Order Charges,Cobranças de Ordem de Transferência
 Transport,Transporte Rodoviário
-Transport Capacity Settings,Configurações de Transport Capacity
+Transport & Geography,Transporte e Geografia
+Transport Capacity Settings,Configurações de Capacidade de Transporte
+Transport Company,Transportadora
 Transport Consolidation,Consolidação de Carga Terrestre
-Transport Driver,Motorista de Transporte
+Transport Cost per Job,Custo de Transporte por Viagem
+Transport Driver,Motorista
+Transport Facilities,Instalações de Transporte
 Transport Job,Viagem / Serviço de Transporte
 Transport Job Charges,Cobranças de Viagem / Serviço de Transporte
+Transport Jobs,Viagens de Transporte
+Transport Leg,Trecho da Viagem
+Transport Mode,Modal de Transporte
+Transport Operations Dashboard,Painel Operacional de Transporte
 Transport Order,Ordem de Transporte
 Transport Order Charges,Cobranças de Ordem de Transporte
+Transport Orders,Ordens de Transporte
+Transport Plan,Plano de Transporte
 Transport Route,Rota de Transporte
-Transport Settings,Configurações de Transporte Rodoviário
+Transport Settings,Configurações de Transporte
+Transport Template,Modelo de Transporte
 Transport Vehicle,Veículo de Transporte
+Transport Zone,Zona de Transporte
+Transporte & Armazenagem,Transporte e Armazenagem
 Transportify Settings,Configurações de Transportify
-Trend Analysis Report,Relatório de Trend Analysis
+Trend Analysis Report,Relatório de Análise de Tendências
 Type,Tipo
+ULD Type,Tipo de ULD
+ULD Types,Tipos de ULD (Paletes / Contêineres Aéreos)
+US AMS,Declaração EUA AMS
 US AMS Settings,Configurações de US AMS
+US ISF,Declaração EUA ISF
 US ISF Settings,Configurações de US ISF
+Unbilled Shipments,Embarques Não Faturados
 Under Clearance,Em Desembaraço
 Unit Load Device,Dispositivo de Carga Unitária (ULD)
 Unlock Charges,Destravar Cobranças
 User,Usuário
 VAR Order Charges,Cobranças de VAR Order
-VAS Order,Ordem de Serviços de Valor Agregado (VAS)
+VAS BOM,Estrutura de Serviços Agregados (VAS BOM)
+VAS Order,Ordem de Serviços Agregados (VAS)
 VAS Order Charges,Cobranças de Ordem de Serviços de Valor Agregado (VAS)
 Validation Settings,Configurações de Validation
 Vehicle Maintenance Log,Registro de Manutenção do Veículo
-Vehicle Utilization Report,Relatório de Vehicle Utilization
+Vehicle Type,Tipo de Veículo
+Vehicle Utilization Report,Relatório de Utilização da Frota
+Vehicles and Setup,Veículos e Parâmetros
 Vessel,Navio / Embarcação
 View on Map,Ver no Mapa
 Volume,Volume (m³ / CBM)
 Volume (CBM),Volume (m³)
 Voyage Details,Detalhes de Voyage
 Warehouse Contract,Contrato de Armazenagem
+Warehouse Contracts,Contratos de Armazenagem
 Warehouse Job,Ordem de Armazenagem
 Warehouse Job Charges,Cobranças de Ordem de Armazenagem
-Warehouse Settings,Configurações de Warehouse
+Warehouse Jobs,Ordens de Armazenagem
+Warehouse Settings,Configurações de Armazenagem
+Warehouse Stock Balance,Saldo de Estoque do Armazém
+Warehouse Stock Ledger,Extrato de Movimentações do Armazém
 Warehousing,Armazenagem
 Warranty / AMC Details,Detalhes de Warranty / AMC
-Waste Management Report,Relatório de Waste Management
+Waste Management Report,Relatório de Gestão de Resíduos
+Weekly Activity,Atividade Semanal
+Weekly Thoughput,Volume Semanal Processado
+Weekly Throughput,Volume Semanal Processado
 Width,Largura (cm)
 Workflow Settings,Configurações de Workflow
+Zip Code Zone Mapping,Mapeamento de CEP e Zonas
+Zone,Zona Logística
