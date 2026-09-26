@@ -38,8 +38,8 @@ async function getAddressLatLon(addrname) {
   }
   if (!d) return null;
 
-  const lat = d.custom_latitude;
-  const lon = d.custom_longitude;
+  const lat = d.custom_latitude ?? d.latitude;
+  const lon = d.custom_longitude ?? d.longitude;
 
   const nlat = typeof lat === "number" ? lat : parseFloat(lat);
   const nlon = typeof lon === "number" ? lon : parseFloat(lon);
@@ -96,11 +96,9 @@ function set_pick_query(frm) {
       
       if (address_names.length > 0) {
         return { filters: { name: ['in', address_names] } };
-      } else {
-        return { filters: { name: '__none__' } };
       }
     }
-    return { filters: { name: '__none__' } };
+    return { filters: { disabled: 0 } };
   });
 }
 function set_drop_query(frm) {
@@ -124,11 +122,9 @@ function set_drop_query(frm) {
       
       if (address_names.length > 0) {
         return { filters: { name: ['in', address_names] } };
-      } else {
-        return { filters: { name: '__none__' } };
       }
     }
-    return { filters: { name: '__none__' } };
+    return { filters: { disabled: 0 } };
   });
 }
 

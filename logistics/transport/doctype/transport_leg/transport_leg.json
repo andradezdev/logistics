@@ -135,13 +135,15 @@
    "fieldtype": "Link",
    "label": "Facility Type From",
    "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Shipper\",\"Consignee\",\"Container Yard\",\"Container Depot\",\"Container Freight Station\",\"Storage Facility\",\"Sorting Hub\",\"Truck Park\",\"Terminal\"]]]",
-   "options": "DocType"
+   "options": "DocType",
+   "reqd": 1
   },
   {
    "fieldname": "facility_from",
    "fieldtype": "Dynamic Link",
    "label": "Facility From",
-   "options": "facility_type_from"
+   "options": "facility_type_from",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_xsyy",
@@ -152,13 +154,15 @@
    "fieldtype": "Link",
    "label": "Facility Type To",
    "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Shipper\",\"Consignee\",\"Container Yard\",\"Container Depot\",\"Container Freight Station\",\"Storage Facility\",\"Sorting Hub\",\"Truck Park\",\"Terminal\"]]]",
-   "options": "DocType"
+   "options": "DocType",
+   "reqd": 1
   },
   {
    "fieldname": "facility_to",
    "fieldtype": "Dynamic Link",
    "label": "Facility To",
-   "options": "facility_type_to"
+   "options": "facility_type_to",
+   "reqd": 1
   },
   {
    "fieldname": "transport_job",
