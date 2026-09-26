@@ -1,12 +1,12 @@
 # CargoNext — Sistema de Gestão Logística e Comércio Exterior
 
-[![Frappe Framework](https://img.shields.io/badge/Frappe-v16.0%2B-blue.svg)](https://frappeframework.com/)
-[![ERPNext](https://img.shields.io/badge/ERPNext-v16.0%2B-blue.svg)](https://erpnext.com/)
+[![Framework](https://img.shields.io/badge/Framework-v16.0%2B-blue.svg)]()
+[![ERPZ](https://img.shields.io/badge/ERPZ-v16.0%2B-blue.svg)](https://erpz.io/)
 [![Python](https://img.shields.io/badge/Python-3.14-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-AGPL--3.0-orange.svg)](license.txt)
 [![Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
 
-O **CargoNext** é uma plataforma completa e modular de gestão logística, transporte multimodal, armazenagem (WMS) e comércio exterior (Freight Forwarding & Customs) desenvolvida nativamente para o **Frappe Framework** e **ERPNext v16**.
+O **CargoNext** é uma plataforma completa e modular de gestão logística, transporte multimodal, armazenagem (WMS) e comércio exterior (Freight Forwarding & Customs) desenvolvida nativamente para o **Framework** e **ERPZ v16**.
 
 A solução unifica a operação de ponta a ponta: desde a cotação comercial inicial até a execução física, controle de marcos operacionais (*milestones*), desembaraço aduaneiro, consolidação de fretes internacionais (Aéreo e Marítimo), gestão de frotas rodoviárias e a apuração financeira individualizada da rentabilidade por embarque (*Job Profitability*).
 
@@ -40,7 +40,7 @@ A solução unifica a operação de ponta a ponta: desde a cotação comercial i
 
 ## 🏛 Visão Geral e Arquitetura
 
-O CargoNext foi projetado segundo os mais rigorosos padrões da indústria logística global (IATA, FIATA, IMO e ISO), operando de maneira acoplada aos livros fiscais e financeiros do ERPNext sem alterar o core do sistema.
+O CargoNext foi projetado segundo os mais rigorosos padrões da indústria logística global (IATA, FIATA, IMO e ISO), operando de maneira acoplada aos livros fiscais e financeiros do ERPZ sem alterar o core do sistema.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -171,7 +171,8 @@ O sistema aplica a regra internacional de peso taxável (*Chargeable Weight*), a
 ### Rentabilidade em Tempo Real (DRE do Processo)
 Cada processo operacional possui um painel de rentabilidade (*Profitability Summary*) que confronta:
 $$	ext{Receita Real Faturada} - 	ext{Custo Real Comprovado} = 	ext{Lucro Bruto (GP)}$$
-$$	ext{Margem de Lucro (\%)} = \left(rac{	ext{Lucro Bruto}}{	ext{Receita Total}}ight) 	imes 100$$
+$$	ext{Margem de Lucro (\%)} = \left(rac{	ext{Lucro Bruto}}{	ext{Receita Total}}
+ight) 	imes 100$$
 Divergências entre estimativas e valores finais são destacadas visualmente para o operador antes da conclusão do processo.
 
 ### Travamento de Cobranças e Fechamento
@@ -180,45 +181,21 @@ Para evitar fraudes e lançamentos extemporâneos:
 * Alterações posteriores exigem a permissão de **Reabertura de Processo** (*Reopen Job*), que audita e registra o motivo e o usuário responsável.
 
 ### Política de Bloqueio por Limite de Crédito
-* O CargoNext monitora em tempo real a situação financeira do cliente cadastrado no ERPNext.
+* O CargoNext monitora em tempo real a situação financeira do cliente cadastrado no ERPZ.
 * Clientes com faturas em atraso ou que excedam o limite de crédito aprovado entram em **Credit Hold**, impedindo a emissão de novos embarques ou a liberação de conhecimentos de transporte.
 * Exceções emergenciais são tratadas via **Credit Hold Lift Request**, sujeitas à aprovação exclusiva do papel `Credit Manager`.
 
 ---
 
-## 🚀 Instalação e Configuração
+## 📖 Instalação e Configuração
 
-### Pré-requisitos
-* **Frappe Framework:** v16.0 ou superior
-* **ERPNext:** v16.0 ou superior
-* **Python:** 3.14+
-* **MariaDB:** 10.6+
+Para o guia detalhado de comandos no terminal (instalação no bench, migração, compilação de assets e configuração inicial), consulte o arquivo dedicado:
 
-### Instalação no Bench
-
-```bash
-# 1. Acessar o diretório do bench
-cd ~/frappe-bench
-
-# 2. Baixar o aplicativo
-bench get-app https://github.com/andradezdev/logistics.git
-
-# 3. Instalar o aplicativo no site desejado
-bench --site [nome-do-site] install-app logistics
-
-# 4. Executar a migração de metadados
-bench --site [nome-do-site] migrate
-
-# 5. Compilar os assets de interface
-bench build --app logistics
-
-# 6. Limpar o cache do sistema
-bench --site [nome-do-site] clear-cache
-```
+👉 **[LEIAME.md](LEIAME.md)**
 
 ---
 
-## 🌐 Localização e Suporte a Idiomas
+## 🌐 Localização## 🌐 Localização e Suporte a Idiomas
 
 * O CargoNext suporta integralmente o **Português do Brasil (pt-BR)** através do catálogo padronizado em `translations/pt-BR.csv`.
 * **Preservação de Integridade:** As traduções aplicam-se estritamente à camada de apresentação visual da interface do usuário (nomes de tela, campos, tooltips e relatórios), mantendo os esquemas de banco de dados, nomes técnicos de DocTypes, métodos Python e variáveis 100% íntegros e compatíveis com a arquitetura padrão internacional.
